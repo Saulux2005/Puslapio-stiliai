@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Title</title>
+	<meta charset="UTF-8">
+	<style>
+	
+		a:link { 
+			text-decoration: none;
+			color: blue;
+		}
+		a:visited { 
+			/*color: green;*/
+		}
+		a:hover {
+			text-decoration: underline;
+			color: red;
+		}
+		a:active {
+			text-decoration: underline;
+		}
+		#logo {
+			width: 100%;
+			text-transform: capitalize;
+			text-align: left;
+			font-size: 40px;
+			font-weight: bold;
+			/*background-color: yellow;*/
+			padding: 0px 0px 15px 0px;
+			margin: 0px;
+		}
+		#news {
+			/*background-color: grey;*/
+			width: 94%;
+			text-align: left;
+			font-size: 25px;
+			font-weight: bold;		
+			border-bottom: 1px solid grey;		
+		}
+		#about {
+			/*background-color: red;*/
+			text-transform: capitalize;
+			border-bottom: 1px solid grey;
+			width: 100%;
+			/*padding: 0px 0px 0px 5px;*/
+		}
+		#left {
+			width: 90%;		
+			font-weight: bold;
+			text-align: left;
+			/*background-color: yellow;*/
+			padding: 0px 0px 0px 5px;
+		}
+		#right {
+			width: 10%;		
+			font-style: italic;
+			text-align: right;
+			/*background-color: magenta;*/
+		}
+		#text {
+			width: 94%;
+			/*padding: 0px 5px 10px 0px;*/
+			/*margin: 0px 0px 0px 0px;*/
+			/*background-color: magenta;*/
+		}
+		p {
+			width: 94%;
+			/*background-color: magenta;*/
+			padding: 0px 0px 20px 5px;
+			margin: 0px;
+		}
+		#footer {
+			width: 100%;
+			border-top: 1px solid grey;
+			font-size: 12px;
+			/*background-color: magenta;*/
+		}
+		
+	</style>
+</head>
+
+<body>
+
+	<table id="text">
+		<tr>
+			<td id="logo">Simple news site</td>
+		</tr>
+		<tr>
+			<td id="news">News</td>
+		</tr>
+		<tr>
+			<td>
+				<table id="about">
+					<tr>
+						<td id="left">About this template</td>
+						<td id="right">February 15, 2003</td>
+					</tr>
+				</table>
+				<p>
+					Lorem ipsum dolor sit amet, <a href="">consectetur</a> adipiscing elit Suspendisse ac mi ut neque.
+				</p>
+				<p>
+					Vestibulum finibus metus a dapibus sagittis <a href="https://www.swedbank.lt/">https://www.swedbank.lt/</a>. Nam ornare augue turpis, eget ornare purus iaculis id. Suspendisse ac mi ut neque laoreet rutrum. Suspendisse ac mi ut neque laoreet rutrum. Suspendisse ac mi ut neque laoreet rutrum. Suspendisse ac mi ut neque laoreet rutrum. Suspendisse ac mi ut neque laoreet rutrum.
+				</p>
+				<p>
+					Donec faucibus nibh sed nibh pretium, sed dictum ex suscipit. Nulla facilisi. Morbi sagittis mauris venenatis tincidunt finibus. Integer eu enim nec elit venenatis euismod ac eget mauris. Maecenas id accumsan orci, quis mattis tellus. Fusce dolor arcu, pretium ut sem id, interdum semper dui. Sed ac augue et enim ultricies pretium et et turpis. Cras quis risus quis neque tristique finibus. Vestibulum elementum libero lacus, aliquet accumsan metus luctus tempus. Fusce purus augue, lobortis vulputate sem vitae, vulputate convallis quam. Praesent ultrices dui ut lectus vestibulum, a tempor mi pharetra. Maecenas gravida vitae ipsum sit amet laoreet. Morbi placerat, lectus eu interdum imperdiet, nibh metus tempus est, sit amet posuere dolor ligula ut mi <a href="">Contact me</a>. Ut id nulla sapien. Nunc consectetur placerat elementum.
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table id="about">
+					<tr>
+						<td id="left">Creating news on your site</td>
+						<td id="right">January 17, 2003</td>
+					</tr>
+				</table>			
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</p>
+				<p>
+					Vestibulum finibus metus a dapibus sagittis. Nam ornare augue turpis, eget ornare purus iaculis id. Suspendisse ac mi ut neque laoreet rutrum. Nullam varius a arcu ut condimentum. Aenean at tempus magna. Quisque gravida viverra neque, nec pharetra nisl elementum sed. Maecenas tincidunt lectus sit amet rhoncus tincidunt. Quisque auctor tempus augue, a pharetra diam tempor at. Curabitur volutpat lacus at odio malesuada blandit. Ut aliquam sagittis ipsum, quis volutpat mauris consequat vel. Sed a commodo tortor.
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table id="about">
+					<tr>
+						<td id="left">Creating a news archive</td>
+						<td id="right">January 15, 2003</td>
+					</tr>
+				</table>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis tempus risus. 
+				</p>
+				<p>
+					Vestibulum finibus metus a dapibus sagittis. Nam ornare augue turpis, eget ornare purus iaculis id. Suspendisse ac mi ut neque laoreet rutrum. Nullam varius a arcu ut condimentum. Aenean at tempus magna. Quisque gravida viverra neque, nec pharetra nisl elementum sed. Maecenas tincidunt lectus sit amet rhoncus tincidunt. Quisque auctor tempus augue, a pharetra diam tempor at. Curabitur volutpat lacus at odio malesuada blandit. Ut aliquam sagittis ipsum, quis volutpat mauris consequat vel. Sed a commodo tortor.
+				</p>
+				<p>
+					Donec faucibus nibh sed nibh pretium, sed dictum ex suscipit. Nulla facilisi. Morbi sagittis mauris venenatis tincidunt finibus. Integer eu enim nec elit venenatis euismod ac eget mauris. Maecenas id accumsan orci, quis mattis tellus. Fusce dolor arcu, pretium ut sem id, interdum semper dui. Sed ac augue et enim ultricies pretium et et turpis. Cras quis risus quis neque tristique finibus. Vestibulum elementum libero lacus, aliquet accumsan metus luctus tempus. Fusce purus augue, lobortis vulputate sem vitae, vulputate convallis quam. Praesent ultrices dui ut lectus vestibulum, a tempor mi pharetra. Maecenas gravida vitae ipsum sit amet laoreet. Morbi placerat, lectus eu interdum imperdiet, nibh metus tempus est, sit amet posuere dolor ligula ut mi. Ut id nulla sapien. Nunc consectetur placerat elementum.
+				</p>				
+			</td>
+		</tr>
+	</table>
+	<footer>
+		<table id="footer">
+			<tr>
+				<td>Copyright &copy; 1993-2003 Saulius</td>
+			</tr>
+		</table>
+	</footer>
+
+</body>
+</html>
