@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About1</title>
+</head>
+    <style>
+        body {
+            margin: 0;
+        }
+        .header {
+            font-weight: bold;
+            font-size: 50px;
+        }
+        main {
+            font-family: Helvetica, sans-serif;
+            width: 100%;            
+            padding-top: 10px;
+        } 
+        @media only screen and (min-width: 1200px) {
+          
+          body {
+              width: 1200px;
+          }
+          
+         }
+        .padding {
+            padding-bottom: 15px;
+        }
+        .iam {
+            display: inline-block;
+            font-size: 20px;
+        }
+        .font13 {
+            font-size: 13px;
+        }
+        .left img {
+            display: inline-block;
+            width: 30%;
+            height: 10px;                        
+            padding-right: 10px;
+        }
+        .right img {
+            width: 60%;
+            padding-left: 20%;        
+        }
+        .clear::after {
+			clear: both;
+			content: "";
+			display: table;
+		}
+        .left {			
+            float: left;
+            display: inline;
+            width: 25%;            
+		}
+		.right {            
+			float: left;
+            width: 60%;
+		}
+        footer {
+            width: 100%;
+        }
+        .image {
+            float: left;
+            width: 15%;
+            border: 2px solid rgb(245, 242, 242);
+            border-radius: 12px;
+            padding: 2px;
+            margin-right: calc(2%-4px);
+        }
+        .last {
+            margin-right: 0;
+        }
+
+    </style>
+<body>
+    <main class="clear">    
+        <div class="left">
+            <div class="header padding">
+                about me
+            </div>
+            <div class="iam padding">
+                I'm a UI Designer and Front End Developer from Sydney, Australia
+            </div>
+            <div class="font13 padding">
+                <p>
+                    I enjoy taking complex problems and turning them into simple and beatiful interface designs. I also love the logic and structure of coding and always strive to write elegant and efficient code, whether it be HTML, CSS or jQuery.
+                </p>
+            </div>
+            <div class="font13 padding">
+                <p>
+                    When I'm not coding or pushing pixels, you'l find me in the gym or on the court shooting some hoops.
+                </p>
+            </div>
+            <div class="padding">
+                <img src="images/fblike.jpg" alt="Facebook Like" />
+                <img src="images/followtwitter.jpg" alt="Follow Twitter" />
+            </div>
+        </div>
+        <div class="right">
+            <img src="images/about11.jpg" alt="Face" />
+        </div>
+    </main>
+    <footer>
+        <div>
+            <img class="image" src="images/about12.jpg" alt="Photo 1" />
+            <img class="image" src="images/about13.jpg" alt="Photo 2" />
+            <img class="image" src="images/about14.jpg" alt="Photo 3" />
+            <img class="image" src="images/about15.jpg" alt="Photo 4" />
+            <img class="image" src="images/about16.jpg" alt="Photo 5" />
+            <img class="image last" src="images/about17.jpg" alt="Photo 6" />
+        </div>
+    </footer>
+    
+</body>
+</html>
