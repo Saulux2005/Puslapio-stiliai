@@ -12,8 +12,16 @@
             background-repeat: repeat;
             color: rgb(172, 169, 169);        
         }
-        .float {
-            float: left;            
+        @media only screen and (orientation: portrait) {
+            .header {
+                width: 30%;
+            }
+            .fotodiv {
+                clear: both;
+            }
+            .right {
+                clear: both;
+            }
         }
         .header {            
             margin: 60px 20px;
