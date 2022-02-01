@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/2e990fd6d4.js" crossorigin="anonymous"></script>
     <title>About3</title>
     <style>
+        /*html {
+            height: 100%;
+        }*/
         body {
+            /*height: 100%;*/
             margin: 0;
-            color: grey;
+            /*color: grey;*/
             text-align: left;
+            background-color: rgb(250, 249, 249); /* For browsers that do not support gradients */
+            background-image: linear-gradient(to bottom right,rgb(254, 249, 249), white);
+            padding: 1rem 1.5rem;
         }
         .left {
             float: left;
         }
         .right {
-            float: left;
+            /*float: left;*/
             width: 60%;
         }
         .clearfix::after {
@@ -23,34 +33,71 @@
             clear: both;
             display: table;
         }
-        .col1 {
-            width: 80%;
-            background-color: rgb(236, 234, 234);
+        #col1 {
+            width: 67%;
+            height: 100%;
+            /*background-color: rgb(236, 234, 234);*/
         }
-        .col2 {
-            width: 20%;
-            background-color: green;
+        #col2 {
+            float: right;
+            width: 27%;
+            height: 100%;
+            /*background-color: green;*/
+            /*margin-left: 10%;*/
+            /*display: inline-block;*/
+        }
+        #col3 {
+            float: right;
+            width: 27%;
+            margin: 2rem 0rem 1rem 0rem;
+        }
+        #col4 {
+            float: right;
+            width: 27%;
+        }
+        /*#col4 {
+            background-image: url("https://icon-library.com/images/pop-up-icon/pop-up-icon-16.jpg");
+            background-color: white;
+            height: 200px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: inline-block;
+        }*/
+        .line1 {
+            /*display: inline-block;*/
+            /*margin: 0;*/
+            padding: 0;
+            /*border: 1px solid black;*/
         }
         .line11 {
             color: #074c58;
-            font-size: 28px;
+            font-size: 2rem;
             font-weight: bold;
+            /*background-color: green;*/
+            /*border: 1px solid black;*/
+            padding-bottom: 5px;
         }
         .line12 {
-            color: grey;
+            /*color: grey;*/
+            /*margin-top: 0;*/
+            /*background-color: red;*/
+            /*border: 1px solid black;*/
+            padding: 0;
         }
         .line2 {
-            margin-top: 30px;
+            margin-top: 1rem;
+            /*border: 1px solid black;*/
         }
         .line21 {
             background-color: #074c58;
             text-transform: uppercase;
             font-weight: bold;
-            padding: 12px;
+            padding: 0.75rem;
             margin: 0;
         }
         .line22 {
-            padding-left: 10px;
+            padding-left: 0.625rem;
         }        
         .elm1 {
             width: 30%;
@@ -62,30 +109,92 @@
         }
         .fotostyle {
             border: 2px solid rgb(196, 193, 193);
-            padding: 5px;
+            padding: 0.3125rem;
             width: 95%;            
         }
+        .l1 {
+            /*height: auto;*/
+            background-color: #074c58;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            text-align: justify;
+            padding: 2rem 1rem;
+        }
+        /*div.l1.cell {
+            
+        }*/
+        .l1 img {
+            width: 2rem;
+            margin: 0.75rem 1rem;
+            vertical-align: middle;
+            /*background-color: yellow;*/
+        }
+        /*.l1 p {
+            display: inline-block;           
+        }*/
+        .l2 {
+            /*height: 3rem;*/
+            background-color: rgb(241, 240, 240);
+            color: rgb(0, 225, 255);
+            font-size: 1rem;
+            padding: 0.75rem 1rem;
+            border: 1px solid rgb(218, 214, 214);
+        }
+        .l2 img {
+            width: 2rem;
+            margin: 1rem 0.75rem 0.75rem 2rem;
+            /*vertical-align: middle;*/
+            /*background-color: yellow;*/
+        }        
         .white {
             color: white;
         }
         span {
             color: rgb(0, 225, 255);
         }
+        a {
+            color: rgb(0, 225, 255);
+            font-size: 1rem;
+            font-weight: bold;
+            margin: 1rem 1rem;
+        }
+        .table {
+            display: table;
+        }
+        .row {
+            display: table-row;
+            /*border: 1px solid grey;*/
+        }
+        .cell {
+            display: table-cell;
+            height: 3.5rem;
+            vertical-align: middle;
+            border: 1px solid rgb(216, 213, 213);
+        }
+        i {
+            /*display: inline-block;*/
+            margin: 1rem 1rem 1rem 2rem;
+        }
+        #cpimg {
+            max-width: 250px;
+            padding: 25px;
+        }
 
     </style>
 </head>
 <body>
     <main>
-        <div class="col1 left">
+        <div id="col1" class="left">
             <div class="line1">
-                <p class="line11">Meet the HBCWeb Team</p>
-                <p class="line12">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="line11">Meet the HBCWeb Team</div>
+                <div class="line12">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
             </div>
             <div class="line2 clearfix">
                 <div class="elm1 left">
                     <img class="fotostyle" src="images/about31.jpg" alt="ROB CARLING" />
                 </div>
-                <div class="elm2 right">
+                <div class="elm2 left right">
                     <p class="line21  white">Rob Carling - <span>development manager</span></p>
                     <p class="line22">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical <a href="">literature</a>, discovered the undoubtable source.</p>
                 </div>
@@ -94,7 +203,7 @@
                 <div class="elm1 left">
                     <img class="fotostyle" src="images/about32.jpg" alt="DUSTIN GREEN" />
                 </div>
-                <div class="elm2 right">
+                <div class="elm2 left right">
                     <p class="line21  white">dustin green - <span>leed developer</span></p>
                     <p class="line22">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
                 </div>
@@ -103,7 +212,7 @@
                 <div class="elm1 left">
                     <img class="fotostyle" src="images/about33.jpg" alt="GLENN GENERAO" />
                 </div>
-                <div class="elm2 right">
+                <div class="elm2 left right">
                     <p class="line21  white">glenn generao - <span>graphic designer</span></p>
                     <p class="line22">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
                 </div>
@@ -112,16 +221,70 @@
                 <div class="elm1 left">
                     <img class="fotostyle" src="images/about34.jpg" alt="WES SAYAS" />
                 </div>
-                <div class="elm2 right">
+                <div class="elm2 left right">
                     <p class="line21  white">wes sayas - <span>lead programmer</span></p>
                     <p class="line22">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
                 </div>
             </div>
         </div>
     </main>
-    <nav>
-        <div class="col2">
+    <aside>
+        <div>
 
+        </div>
+    </aside>
+    <nav>
+        <div id="col2" class="right table clearfix">
+            <div class="l1 row">
+                <div class="cell">
+                    <!-- <img src="images/magnifying.jpg" alt="Plus" /> --><i class="fa fa-search"></i> More About HBCWeb...
+                </div>                
+                
+            </div>
+            <div class="l2 row">
+                <div class="cell">
+                    <img src="images/plus432.jpg" alt="Plus" /><!-- <i class="fas fa-plus-circle" style="font-size:1.5rem;color:green;"></i> --><a href="">Company Overview</a>
+                </div>
+            </div>
+            <div class="l2 row">
+                <div class="cell">
+                    <img src="images/plus432.jpg" alt="Plus" /> <a href="">Meet the Team</a>
+                </div>
+            </div>
+            <div class="l2 row">
+                <div class="cell">
+                    <img src="images/plus432.jpg" alt="Plus" /> <a href="">The Digs</a>
+                </div>
+            </div>
+            <div class="l2 row">
+                <div class="cell">
+                    <img src="images/plus432.jpg" alt="Plus" /> <a href="">The Priceline PN</a>
+                </div>
+            </div>
+            <div class="l2 row">
+                <div class="cell">
+                    <img src="images/plus432.jpg" alt="Plus" /> <a href="">Client Testimonials</a>
+                </div>
+            </div>
+        </div>
+        <div id="col3" class="right table clearfix">
+            <div class="l1 row">
+                <div class="cell">
+                    <!-- <img src="images/magnifying.jpg" alt="Magnifying glass" /> --><i class="far fa-comment-alt " style="font-size:1.5rem;"></i> What our clients are saying.
+                </div>
+            </div>
+        </div>
+        <div id="col4" class="table">
+            <div class="row">
+                <div class="cell">
+                    <a href="">View All Clent Testimonials</a>
+            <!-- </div>
+             </div> 
+                <div class="cell"> 
+                    <img src="https://icon-library.com/images/pop-up-icon/pop-up-icon-16.jpg" alt="Bubble, conversation, popup, talking icon | Icon search engine" id="cpimg"> -->
+                </div>
+
+            </div>
         </div>
     </nav>
 </body>
